@@ -1,0 +1,77 @@
+body{ 
+  background-color:#f0f8ff;
+  width: 99%;
+  height:99%;
+  background-image: url("images/lol.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+
+
+
+header img{
+  text-align: center;
+  margin-top: 10%;
+  height: 90%;
+  width: 60%;
+  margin-left: 20%;
+
+ 
+}
+
+.row {
+  display: flex;
+}
+
+article, p {
+  font-family:'Nanum Myeongjo', serif;
+  font-size: 1em;
+  flex: 1;
+  border:1% solid none;
+  text-align: justify;
+  margin: 2%;
+  padding: 2%;
+  margin-right: 10%;
+  margin-left: 20%;
+  margin-top: 1%;
+}
+
+.row div img {
+  width: 60%;
+  
+}
+
+h1{
+  font-family: 'Playfair display',bold, serif;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 5%;
+}
+
+h2{
+  font-family: 'Old Standard TT', serif;
+  font-size: 1.5em;
+  text-align: center;
+
+}
+
+a{
+  text-decoration: none;
+  color:red;
+}
+
+aside{
+  margin-top: 10%;
+  font-size: 1.5em;
+  text-align: justify;
+  margin-bottom:10%;
+  line-height: 90%;
+  margin-left: 3%;
+  margin-right: 5%;
+}
+
+h3{
+  text-align: center;
+  margin-top: -10%;
+}
