@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <style>
-@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo|Playfair+Display');
-</style>
+ <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Coming+Soon" rel="stylesheet">
 	<meta charset="utf-8" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/reset.css" type="text/css">
      <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -14,10 +12,15 @@
 	<h1><img src="images/cake.png"></h1>
 </header>
 		<div class="topnav">
-  <a class="active" href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="recipes.html">Recipes</a>
-  <a href="contact.html">Contact</a>
+
+    <nav>
+        <ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="recipes.html">Recipes</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
 </div>
 </header>
 
@@ -52,18 +55,7 @@
   </div>
 </div>
 
-<script>
-function myMap() {
-  var myCenter = new google.maps.LatLng(51.508742,-0.120850);
-  var mapCanvas = document.getElementById("map");
-  var mapOptions = {center: myCenter, zoom: 12};
-  var map = new google.maps.Map(mapCanvas, mapOptions);
-  var marker = new google.maps.Marker({position:myCenter});
-  marker.setMap(map);
-}
-</script>
-
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.9796415573255!2d-70.69856288493587!3d19.456444544959048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eb1cf5f7be8b03f%3A0xbe3e3516d23177c9!2sDella+Nonna+Coffee+%26+Pastry!5e0!3m2!1sen!2sdo!4v1524941567151" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 <div class="img">
   <img src="images/ins.png"> 
   <img src="images/facebook.png"> 
